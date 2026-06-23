@@ -7,7 +7,14 @@
   <version>1.O-SNAPSHOT</version>
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
- 
+  
+<repositories>
+<repository>
+        <id>nexus</id>
+      <name>maven-Web-snapshot</name>
+        <url>http://16.16.254.89:8081/repository/maven-Web-snapshot/</url>
+    </repository>
+</repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,12 +37,12 @@
     <repository>
         <id>nexus</id>
       <name>maven-Web-release</name>
-        <url>http://16.170.170.187:8081/repository/maven-Web-release/</url>
+        <url>http://16.16.254.89:8081/repository/maven-Web-release/</url>
     </repository>
     <snapshotRepository>
         <id>nexus</id>
       <name>maven-Web-snapshot</name>
-        <url>http://16.170.170.187:8081/repository/maven-Web-snapshot/</url>
+        <url>http://16.16.254.89:8081/repository/maven-Web-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
