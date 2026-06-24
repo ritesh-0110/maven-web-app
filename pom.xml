@@ -10,8 +10,8 @@
   <repositories>
 <repository>
         <id>nexus</id>
-      <name>maven-Web-snapshot</name>
-        <url>http://16.16.254.89:8081/repository/maven-proxy/</url>
+      <name>maven-web-proxy</name>
+        <url>http://16.16.99.60:8081/repository/maven-web-proxy/</url>
     </repository>
 </repositories>
   <dependencies>
