@@ -41,7 +41,7 @@
 <repository>
         <id>nexus</id>
       <name>simple-maven-proxy</name>
-        <url>http://16.16.91.24:8081/repository/simple-maven-proxy//</url>
+        <url>http://16.16.91.24:8081/repository/simple-maven-group/</url>
     </repository>
 </repositories>
 </project>
