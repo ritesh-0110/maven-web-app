@@ -37,4 +37,11 @@
         <url>http://16.16.91.24:8081/repository/simple-maven-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
+  <repositories>
+<repository>
+        <id>nexus</id>
+      <name>simple-maven-proxy</name>
+        <url>http://16.16.91.24:8081/repository/simple-maven-proxy//</url>
+    </repository>
+</repositories>
 </project>
