@@ -34,13 +34,13 @@
   <distributionManagement>
     <repository>
         <id>nexus</id>
-      <name>maven-Web-release</name>
-        <url>http://16.16.254.171:8081/repository/maven-Web-release/</url>
+      <name>simple-maven-release</name>
+        <url>http://16.16.254.171:8081/repository/simple-maven-release/</url>
     </repository>
     <snapshotRepository>
         <id>nexus</id>
-      <name>maven-Web-snapshot</name>
-        <url>http://16.16.254.171:8081/repository/maven-Web-snapshot/</url>
+      <name>simple-maven-snapshot</name>
+        <url>http://16.16.254.171:8081/repository/simple-maven-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
