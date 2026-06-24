@@ -9,6 +9,12 @@
   <url>http://maven.apache.org</url>
   
   <dependencies>
+     <dependency>
+  <groupId>in.ashokit</groupId>
+  <artifactId>01-maven-web-app</artifactId>
+  <version>1.O-20260623.063714-1</version>
+  <type>war</type>
+</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
